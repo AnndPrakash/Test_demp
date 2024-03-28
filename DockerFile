@@ -1,0 +1,3 @@
+FROM openjdk:17
+ADD target/SB-ECOM_APP.jar SB-ECOM_APP.jar
+CMD java -jar SB-ECOM_APP.jar
